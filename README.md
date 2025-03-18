@@ -27,23 +27,11 @@ Este é um projeto simples de **Amigo Secreto** desenvolvido com **JavaScript**,
 2. Ao clicar em "Adicionar", o nome é adicionado à lista.
 3. Depois de adicionar todos os participantes, o botão "Sorteio" realiza o sorteio e exibe os resultados, garantindo que ninguém tire o próprio nome.
 
-## Instalação
-
-Não há necessidade de instalação, basta abrir o arquivo `index.html` no seu navegador.
-
 ## Tecnologias Utilizadas
 
 - **HTML**: Estrutura da página.
 - **CSS**: Estilização da interface.
 - **JavaScript**: Lógica de interação e sorteio dos nomes.
 
-## Contribuições
-
-Sinta-se à vontade para fazer melhorias ou adicionar novos recursos ao projeto! Se você deseja contribuir, siga os passos abaixo:
-
-1. Fork o repositório.
-2. Crie uma branch com sua feature (`git checkout -b nova-feature`).
-3. Faça o commit das suas alterações (`git commit -m 'Adiciona nova feature'`).
-4. Envie para o branch principal (`git push origin nova-feature`).
-5. Abra um pull request.
-
+## Link do Projeto
+acesse aqui: https://monica-rsilva.github.io/challenge-amigo-secreto/
