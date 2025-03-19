@@ -34,17 +34,20 @@ function atualizarListaAmigosHtml(){
 
         listaAmigos.appendChild(li);
     }
+
+
 }
 
 function sortearAmigo() {
+    let listaResultado = document.querySelector('#resultado');
     
+    listaResultado.innerHTML = '';
+
     if(lista.length === 0){
         alert('Não há amigos para sortear')
         return
     }
-
-    let listaResultado = document.querySelector('#resultado');
-    listaResultado.innerHTML = '';
+    
     
     let indice = indiceAleatorio();
 
@@ -56,6 +59,10 @@ function sortearAmigo() {
 
     listaResultado.appendChild(li);
 
+    lista.splice(indice, 1);
+    
+    atualizarListaAmigosHtml();
+
 }
 
 function indiceAleatorio(){
@@ -63,7 +70,6 @@ function indiceAleatorio(){
     
     return a 
 }
-
 
 function limparCampo(){
     nomeAmigo = document.querySelector('input');
